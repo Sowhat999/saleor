@@ -283,140 +283,140 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[certifi](https://pypi.org/project/certifi)|v2023.5.7|05/08/23|Marcin Gębala |MPL-2.0|[CVE-2023-37920](https://github.com/advisories/GHSA-xqr8-7jwr-rhp7) (High)|
-|[cryptography](https://pypi.org/project/cryptography)|v41.0.1|06/01/23|Mikail |BSD-3-Clause,Apache-2.0|[CVE-2023-38325](https://github.com/advisories/GHSA-cf7p-gm2m-833m) (High)<br/>[CVE-2024-26130](https://github.com/advisories/GHSA-6vqw-3v5j-54x4) (High)<br/>[CVE-2023-50782](https://github.com/advisories/GHSA-3ww4-gg4f-jr7f) (High)<br/>[CVE-2024-0727](https://github.com/advisories/GHSA-9v9h-cgj8-h64p) (Moderate)<br/>[CVE-2023-49083](https://github.com/advisories/GHSA-jfhm-5ghh-2f97) (Moderate)<br/>[](https://github.com/advisories/GHSA-jm77-qphf-c4w8) (Low)<br/>[](https://github.com/advisories/GHSA-v8gr-m533-ghj9) (Low)|
-|[fonttools](https://pypi.org/project/fonttools)|v4.40.0|06/19/23|Marcin Gębala |MIT|[CVE-2023-45139](https://github.com/advisories/GHSA-6673-4983-2vx5) (High)|
-|[grpcio](https://pypi.org/project/grpcio)|v1.54.2|06/19/23|Marcin Gębala |Apache-2.0|[CVE-2023-4785](https://github.com/advisories/GHSA-p25m-jpj4-qcrr) (High)|
-|[black](https://pypi.org/project/black)|v23.3.0|05/18/23|dependabot[bot] |MIT|[CVE-2024-21503](https://github.com/advisories/GHSA-fj7x-q9j7-g6q6) (Moderate)|
-|[idna](https://pypi.org/project/idna)|v3.4|10/10/22|Marcin Gębala |BSD-3-Clause|[CVE-2024-3651](https://github.com/advisories/GHSA-jjg7-2v4v-x38h) (Moderate)|
-|[tornado](https://pypi.org/project/tornado)|v6.3.2|05/16/23|Marcin Gębala |Apache-2.0|[](https://github.com/advisories/GHSA-qppv-j76h-2rpx) (Moderate)|
-|[urllib3](https://pypi.org/project/urllib3)|v1.26.16|05/29/23|Marcin Gębala |MIT|[CVE-2023-45803](https://github.com/advisories/GHSA-g4mx-q9vg-27p4) (Moderate)<br/>[CVE-2023-43804](https://github.com/advisories/GHSA-v845-jxx5-vc9f) (Moderate)|
-|[Authlib](https://pypi.org/project/Authlib)|v1.0.0|04/01/22|Maciej Korycinski |BSD-3-Clause|N/A|
-|[amqp](https://pypi.org/project/amqp)|v5.1.1|08/31/22|Patryk Zawadzki |BSD-3-Clause|N/A|
-|[aniso8601](https://pypi.org/project/aniso8601)|v7.0.0|08/31/22|Patryk Zawadzki |BSD-3-Clause|N/A|
-|[anyio](https://pypi.org/project/anyio)|v3.7.0|05/29/23|Marcin Gębala |MIT|N/A|
-|[asgiref](https://pypi.org/project/asgiref)|v3.7.2|05/29/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[async-timeout](https://pypi.org/project/async-timeout)|v4.0.2|06/19/23|Marcin Gębala |Apache-2.0|N/A|
-|[azure-common](https://pypi.org/project/azure-common)|v1.1.28|02/24/23|dependabot[bot] |MIT|N/A|
-|[azure-core](https://pypi.org/project/azure-core)|v1.27.1|06/19/23|Marcin Gębala |MIT|N/A|
-|[azure-storage-blob](https://pypi.org/project/azure-storage-blob)|v12.16.0|03/03/23|dependabot[bot] |MIT|N/A|
-|[azure-storage-common](https://pypi.org/project/azure-storage-common)|v2.1.0|03/03/23|dependabot[bot] |MIT|N/A|
-|[bcrypt](https://pypi.org/project/bcrypt)|v4.0.1|06/05/23|Marcin Gębala |Apache-2.0|N/A|
-|[beautifulsoup4](https://pypi.org/project/beautifulsoup4)|v4.7.1|04/18/23|Marcin Gębala |MIT|N/A|
-|[billiard](https://pypi.org/project/billiard)|v4.1.0|06/12/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[boto3](https://pypi.org/project/boto3)|v1.26.155|12/08/22|dependabot[bot] |Apache-2.0|N/A|
-|[botocore](https://pypi.org/project/botocore)|v1.29.155|06/19/23|Marcin Gębala |Apache-2.0|N/A|
-|[braintree](https://pypi.org/project/braintree)|v4.20.0|06/06/23|dependabot[bot] |MIT|N/A|
-|[cachetools](https://pypi.org/project/cachetools)|v5.3.1|06/19/23|Marcin Gębala |MIT|N/A|
-|[celery](https://pypi.org/project/celery)|v5.3.1|08/20/21|fowczrek |BSD-3-Clause|N/A|
-|[cffi](https://pypi.org/project/cffi)|v1.15.1|08/31/22|Patryk Zawadzki |MIT|N/A|
-|[charset-normalizer](https://pypi.org/project/charset-normalizer)|v3.1.0|04/24/23|Mikail |N/A|N/A|
-|[click](https://pypi.org/project/click)|v8.1.3|06/19/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[click-plugins](https://pypi.org/project/click-plugins)|v1.1.1|06/19/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[colorama](https://pypi.org/project/colorama)|v0.4.6|06/05/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[coverage](https://pypi.org/project/coverage)|v7.2.7|03/03/23|dependabot[bot] |Apache-2.0|N/A|
-|[dj-database-url](https://pypi.org/project/dj-database-url)|v2.0.0|06/07/23|dependabot[bot] |BSD-2-Clause|N/A|
-|[django-appconf](https://pypi.org/project/django-appconf)|v1.0.5|06/19/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[django-countries](https://pypi.org/project/django-countries)|v7.5.1|06/06/23|dependabot[bot] |MIT|N/A|
-|[django-debug-toolbar](https://pypi.org/project/django-debug-toolbar)|v4.1.0|06/06/23|dependabot[bot] |BSD-3-Clause|N/A|
-|[django-extensions](https://pypi.org/project/django-extensions)|v3.2.3|06/07/23|Marcin Gębala |MIT|N/A|
-|[django-filter](https://pypi.org/project/django-filter)|v23.2|06/06/23|dependabot[bot] |BSD-3-Clause|N/A|
-|[django-js-asset](https://pypi.org/project/django-js-asset)|v2.0.0|06/19/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[django-mptt](https://pypi.org/project/django-mptt)|v0.14.0|06/06/23|dependabot[bot] |MIT|N/A|
-|[django-phonenumber-field](https://pypi.org/project/django-phonenumber-field)|v7.1.0|06/06/23|dependabot[bot] |MIT|N/A|
-|[django-redis](https://pypi.org/project/django-redis)|v5.3.0|06/06/23|dependabot[bot] |BSD-3-Clause|N/A|
-|[django-storages](https://pypi.org/project/django-storages)|v1.13.2|06/06/23|dependabot[bot] |BSD-3-Clause|N/A|
-|[django-timezone-field](https://pypi.org/project/django-timezone-field)|v5.1|06/19/23|Marcin Gębala |BSD-2-Clause|N/A|
-|[django-versatileimagefield](https://pypi.org/project/django-versatileimagefield)|v3.0|06/07/23|Marcin Gębala |MIT|N/A|
-|[exceptiongroup](https://pypi.org/project/exceptiongroup)|v1.1.1|06/05/23|Marcin Gębala |N/A|N/A|
-|[fakeredis](https://pypi.org/project/fakeredis)|v2.14.1|04/12/23|dependabot[bot] |BSD-3-Clause|N/A|
-|[flake8](https://pypi.org/project/flake8)|v4.0.1|03/04/22|Patryk Zawadzki |MIT|N/A|
-|[freezegun](https://pypi.org/project/freezegun)|v1.2.2|04/26/22|Patryk Zawadzki |Apache-2.0|N/A|
-|[google-api-core](https://pypi.org/project/google-api-core)|v2.11.1|06/19/23|Marcin Gębala |Apache-2.0|N/A|
-|[google-auth](https://pypi.org/project/google-auth)|v2.20.0|06/19/23|Marcin Gębala |Apache-2.0|N/A|
-|[google-cloud-core](https://pypi.org/project/google-cloud-core)|v2.3.2|06/19/23|Marcin Gębala |Apache-2.0|N/A|
-|[google-cloud-pubsub](https://pypi.org/project/google-cloud-pubsub)|v2.17.1|06/29/22|Marcin Gębala |Apache-2.0|N/A|
-|[google-cloud-storage](https://pypi.org/project/google-cloud-storage)|v2.9.0|03/03/23|dependabot[bot] |Apache-2.0|N/A|
-|[google-resumable-media](https://pypi.org/project/google-resumable-media)|v2.5.0|06/19/23|Marcin Gębala |Apache-2.0|N/A|
-|[googleapis-common-protos](https://pypi.org/project/googleapis-common-protos)|v1.59.1|06/19/23|Marcin Gębala |Apache-2.0|N/A|
-|[graphene](https://pypi.org/project/graphene)|v2.1.9|06/01/23|Mikail |MIT|N/A|
-|[graphql-core](https://pypi.org/project/graphql-core)|v2.3.2|06/19/23|Marcin Gębala |MIT|N/A|
-|[graphql-relay](https://pypi.org/project/graphql-relay)|v2.0.1|06/05/23|Marcin Gębala |MIT|N/A|
-|[grpc-google-iam-v1](https://pypi.org/project/grpc-google-iam-v1)|v0.12.6|06/19/23|Marcin Gębala |Apache-2.0|N/A|
-|[gunicorn](https://pypi.org/project/gunicorn)|v20.1.0|10/27/22|dependabot[bot] |MIT|N/A|
-|[h11](https://pypi.org/project/h11)|v0.14.0|08/31/22|Patryk Zawadzki |MIT|N/A|
-|[html2text](https://pypi.org/project/html2text)|v2020.1.16|05/11/21|Marcin Gębala |GPL-3.0|N/A|
-|[html5lib](https://pypi.org/project/html5lib)|v1.1|08/31/22|Patryk Zawadzki |MIT|N/A|
-|[httptools](https://pypi.org/project/httptools)|v0.5.0|06/19/23|Marcin Gębala |MIT|N/A|
-|[importlib-metadata](https://pypi.org/project/importlib-metadata)|v6.7.0|06/19/23|Marcin Gębala |Apache-2.0|N/A|
-|[isodate](https://pypi.org/project/isodate)|v0.6.1|08/31/22|Patryk Zawadzki |BSD-3-Clause|N/A|
-|[isort](https://pypi.org/project/isort)|v5.12.0|02/01/23|Marcin Gębala |MIT|N/A|
-|[jaeger-client](https://pypi.org/project/jaeger-client)|v4.8.0|06/22/21|dependabot[bot] |Apache-2.0|N/A|
-|[jmespath](https://pypi.org/project/jmespath)|v1.0.1|08/31/22|Patryk Zawadzki |MIT|N/A|
-|[jsonfield](https://pypi.org/project/jsonfield)|v3.1.0|06/19/23|Marcin Gębala |MIT|N/A|
-|[kombu](https://pypi.org/project/kombu)|v5.3.1|06/19/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[lxml](https://pypi.org/project/lxml)|v4.9.2|12/20/22|Marcin Gębala |BSD-3-Clause|N/A|
-|[mpmath](https://pypi.org/project/mpmath)|v1.3.0|03/14/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[mypy](https://pypi.org/project/mypy)|v1.3.0|02/07/23|Patryk Zawadzki |MIT|N/A|
-|[oauthlib](https://pypi.org/project/oauthlib)|v3.2.2|04/01/22|Maciej Korycinski |BSD-3-Clause|N/A|
-|[openpyxl](https://pypi.org/project/openpyxl)|v3.1.2|08/31/22|Patryk Zawadzki |MIT|N/A|
-|[petl](https://pypi.org/project/petl)|v1.7.12|12/08/22|dependabot[bot] |MIT|N/A|
-|[phonenumberslite](https://pypi.org/project/phonenumberslite)|v8.13.14|10/10/22|Marcin Gębala |Apache-2.0|N/A|
-|[pre-commit](https://pypi.org/project/pre-commit)|v3.3.3|02/24/23|dependabot[bot] |MIT|N/A|
-|[promise](https://pypi.org/project/promise)|v2.3|03/06/23|Marcin Gębala |MIT|N/A|
-|[prompt-toolkit](https://pypi.org/project/prompt-toolkit)|v3.0.38|06/19/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[psycopg2](https://pypi.org/project/psycopg2)|v2.9.6|03/24/22|Johan Bergström |BSD-3-Clause-Attribution|N/A|
-|[pyasn1](https://pypi.org/project/pyasn1)|v0.5.0|04/28/23|Marcin Gębala |BSD-2-Clause|N/A|
-|[pyasn1-modules](https://pypi.org/project/pyasn1-modules)|v0.3.0|04/28/23|Marcin Gębala |BSD-2-Clause|N/A|
-|[pybars3](https://pypi.org/project/pybars3)|v0.9.7|05/11/21|Marcin Gębala |LGPL-3.0|N/A|
-|[pycodestyle](https://pypi.org/project/pycodestyle)|v2.8.0|06/10/21|dependabot[bot] |Saxpath|N/A|
-|[pycparser](https://pypi.org/project/pycparser)|v2.21|04/24/23|Mikail |BSD-3-Clause|N/A|
-|[pydocstyle](https://pypi.org/project/pydocstyle)|v6.3.0|06/10/21|dependabot[bot] |MIT|N/A|
-|[pylint-plugin-utils](https://pypi.org/project/pylint-plugin-utils)|v0.8.2|02/16/23|Patryk Zawadzki |GPL-2.0|N/A|
-|[pytest](https://pypi.org/project/pytest)|v7.3.2|06/06/23|dependabot[bot] |MIT|N/A|
-|[pytest-asyncio](https://pypi.org/project/pytest-asyncio)|v0.21.0|06/06/23|dependabot[bot] |Apache-2.0|N/A|
-|[pytest-cov](https://pypi.org/project/pytest-cov)|v4.1.0|06/06/23|dependabot[bot] |MIT|N/A|
-|[pytest-django](https://pypi.org/project/pytest-django)|v4.5.2|06/06/23|dependabot[bot] |BSD-3-Clause|N/A|
-|[pytest-mock](https://pypi.org/project/pytest-mock)|v3.11.1|06/06/23|dependabot[bot] |MIT|N/A|
-|[pytest-xdist](https://pypi.org/project/pytest-xdist)|v3.3.1|06/06/23|dependabot[bot] |MIT|N/A|
-|[python-crontab](https://pypi.org/project/python-crontab)|v2.7.1|06/19/23|Marcin Gębala |LGPL-3.0|N/A|
-|[python-dateutil](https://pypi.org/project/python-dateutil)|v2.8.2|06/19/23|Marcin Gębala |NRL|N/A|
-|[python-dotenv](https://pypi.org/project/python-dotenv)|v1.0.0|06/19/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[python-json-logger](https://pypi.org/project/python-json-logger)|v2.0.7|10/19/22|dependabot[bot] |BSD-2-Clause|N/A|
-|[python-magic](https://pypi.org/project/python-magic)|v0.4.27|06/19/23|Marcin Gębala |MIT|N/A|
-|[pytimeparse](https://pypi.org/project/pytimeparse)|v1.1.8|05/11/21|Marcin Gębala |MIT|N/A|
-|[pytz](https://pypi.org/project/pytz)|v2023.3|04/03/23|Marcin Gębala |MIT|N/A|
-|[pywatchman](https://pypi.org/project/pywatchman)|v1.4.1|05/11/21|Marcin Gębala |MIT|N/A|
-|[requests](https://pypi.org/project/requests)|v2.31.0|10/26/22|SzymJ |Apache-2.0|N/A|
-|[rsa](https://pypi.org/project/rsa)|v4.9|08/31/22|Patryk Zawadzki |Apache-2.0|N/A|
-|[s3transfer](https://pypi.org/project/s3transfer)|v0.6.1|05/08/23|Marcin Gębala |Apache-2.0|N/A|
-|[semantic-version](https://pypi.org/project/semantic-version)|v2.10.0|06/07/23|Marcin Gębala |BSD-2-Clause|N/A|
-|[sendgrid](https://pypi.org/project/sendgrid)|v6.10.0|06/22/21|dependabot[bot] |MIT|N/A|
-|[sentry-sdk](https://pypi.org/project/sentry-sdk)|v1.25.1|10/07/22|dependabot[bot] |MIT|N/A|
-|[setuptools](https://pypi.org/project/setuptools)|v67.8.0|06/19/23|Marcin Gębala |MIT|N/A|
-|[six](https://pypi.org/project/six)|v1.16.0|08/31/22|Patryk Zawadzki |MIT|N/A|
-|[soupsieve](https://pypi.org/project/soupsieve)|v2.4.1|04/18/23|Marcin Gębala |MIT|N/A|
-|[sqlparse](https://pypi.org/project/sqlparse)|v0.4.4|04/24/23|Mikail |BSD-3-Clause|N/A|
-|[stripe](https://pypi.org/project/stripe)|v3.5.0|05/19/22|dependabot[bot] |MIT|N/A|
-|[sympy](https://pypi.org/project/sympy)|v1.12|05/16/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[text-unidecode](https://pypi.org/project/text-unidecode)|v1.3|05/11/21|Marcin Gębala |Artistic-2.0|N/A|
-|[threadloop](https://pypi.org/project/threadloop)|v1.0.2|06/05/23|Marcin Gębala |MIT|N/A|
-|[thrift](https://pypi.org/project/thrift)|v0.16.0|08/31/22|Patryk Zawadzki |Apache-2.0|N/A|
-|[tinycss2](https://pypi.org/project/tinycss2)|v1.2.1|10/26/22|SzymJ |BSD-3-Clause|N/A|
-|[typing-extensions](https://pypi.org/project/typing-extensions)|v4.6.3|06/19/23|Marcin Gębala |Python-2.0|N/A|
-|[uvicorn](https://pypi.org/project/uvicorn)|v0.19.0|10/27/22|dependabot[bot] |BSD-3-Clause|N/A|
-|[uvloop](https://pypi.org/project/uvloop)|v0.17.0|06/05/23|Marcin Gębala |Apache-2.0|N/A|
-|[vine](https://pypi.org/project/vine)|v5.0.0|08/31/22|Patryk Zawadzki |BSD-3-Clause|N/A|
-|[webencodings](https://pypi.org/project/webencodings)|v0.5.1|08/31/22|Patryk Zawadzki |BSD-3-Clause|N/A|
-|[websockets](https://pypi.org/project/websockets)|v11.0.3|05/08/23|Marcin Gębala |BSD-3-Clause|N/A|
-|[zipp](https://pypi.org/project/zipp)|v3.15.0|02/27/23|Marcin Gębala |MIT|N/A|
+|[certifi](https://pypi.org/project/certifi)|v2023.5.7|N/A|N/A |MPL-2.0|[CVE-2023-37920](https://github.com/advisories/GHSA-xqr8-7jwr-rhp7) (High)|
+|[cryptography](https://pypi.org/project/cryptography)|v41.0.1|N/A|N/A |BSD-3-Clause,Apache-2.0|[CVE-2023-38325](https://github.com/advisories/GHSA-cf7p-gm2m-833m) (High)<br/>[CVE-2024-26130](https://github.com/advisories/GHSA-6vqw-3v5j-54x4) (High)<br/>[CVE-2023-50782](https://github.com/advisories/GHSA-3ww4-gg4f-jr7f) (High)<br/>[CVE-2024-0727](https://github.com/advisories/GHSA-9v9h-cgj8-h64p) (Moderate)<br/>[CVE-2023-49083](https://github.com/advisories/GHSA-jfhm-5ghh-2f97) (Moderate)<br/>[](https://github.com/advisories/GHSA-jm77-qphf-c4w8) (Low)<br/>[](https://github.com/advisories/GHSA-v8gr-m533-ghj9) (Low)|
+|[fonttools](https://pypi.org/project/fonttools)|v4.40.0|N/A|N/A |MIT|[CVE-2023-45139](https://github.com/advisories/GHSA-6673-4983-2vx5) (High)|
+|[grpcio](https://pypi.org/project/grpcio)|v1.54.2|N/A|N/A |Apache-2.0|[CVE-2023-4785](https://github.com/advisories/GHSA-p25m-jpj4-qcrr) (High)|
+|[black](https://pypi.org/project/black)|v23.3.0|N/A|N/A |MIT|[CVE-2024-21503](https://github.com/advisories/GHSA-fj7x-q9j7-g6q6) (Moderate)|
+|[idna](https://pypi.org/project/idna)|v3.4|N/A|N/A |BSD-3-Clause|[CVE-2024-3651](https://github.com/advisories/GHSA-jjg7-2v4v-x38h) (Moderate)|
+|[tornado](https://pypi.org/project/tornado)|v6.3.2|N/A|N/A |Apache-2.0|[](https://github.com/advisories/GHSA-qppv-j76h-2rpx) (Moderate)|
+|[urllib3](https://pypi.org/project/urllib3)|v1.26.16|N/A|N/A |MIT|[CVE-2023-45803](https://github.com/advisories/GHSA-g4mx-q9vg-27p4) (Moderate)<br/>[CVE-2023-43804](https://github.com/advisories/GHSA-v845-jxx5-vc9f) (Moderate)|
+|[Authlib](https://pypi.org/project/Authlib)|v1.0.0|N/A|N/A |BSD-3-Clause|N/A|
+|[amqp](https://pypi.org/project/amqp)|v5.1.1|N/A|N/A |BSD-3-Clause|N/A|
+|[aniso8601](https://pypi.org/project/aniso8601)|v7.0.0|N/A|N/A |BSD-3-Clause|N/A|
+|[anyio](https://pypi.org/project/anyio)|v3.7.0|N/A|N/A |MIT|N/A|
+|[asgiref](https://pypi.org/project/asgiref)|v3.7.2|N/A|N/A |BSD-3-Clause|N/A|
+|[async-timeout](https://pypi.org/project/async-timeout)|v4.0.2|N/A|N/A |Apache-2.0|N/A|
+|[azure-common](https://pypi.org/project/azure-common)|v1.1.28|N/A|N/A |MIT|N/A|
+|[azure-core](https://pypi.org/project/azure-core)|v1.27.1|N/A|N/A |MIT|N/A|
+|[azure-storage-blob](https://pypi.org/project/azure-storage-blob)|v12.16.0|N/A|N/A |MIT|N/A|
+|[azure-storage-common](https://pypi.org/project/azure-storage-common)|v2.1.0|N/A|N/A |MIT|N/A|
+|[bcrypt](https://pypi.org/project/bcrypt)|v4.0.1|N/A|N/A |Apache-2.0|N/A|
+|[beautifulsoup4](https://pypi.org/project/beautifulsoup4)|v4.7.1|N/A|N/A |MIT|N/A|
+|[billiard](https://pypi.org/project/billiard)|v4.1.0|N/A|N/A |BSD-3-Clause|N/A|
+|[boto3](https://pypi.org/project/boto3)|v1.26.155|N/A|N/A |Apache-2.0|N/A|
+|[botocore](https://pypi.org/project/botocore)|v1.29.155|N/A|N/A |Apache-2.0|N/A|
+|[braintree](https://pypi.org/project/braintree)|v4.20.0|N/A|N/A |MIT|N/A|
+|[cachetools](https://pypi.org/project/cachetools)|v5.3.1|N/A|N/A |MIT|N/A|
+|[celery](https://pypi.org/project/celery)|v5.3.1|N/A|N/A |BSD-3-Clause|N/A|
+|[cffi](https://pypi.org/project/cffi)|v1.15.1|N/A|N/A |MIT|N/A|
+|[charset-normalizer](https://pypi.org/project/charset-normalizer)|v3.1.0|N/A|N/A |N/A|N/A|
+|[click](https://pypi.org/project/click)|v8.1.3|N/A|N/A |BSD-3-Clause|N/A|
+|[click-plugins](https://pypi.org/project/click-plugins)|v1.1.1|N/A|N/A |BSD-3-Clause|N/A|
+|[colorama](https://pypi.org/project/colorama)|v0.4.6|N/A|N/A |BSD-3-Clause|N/A|
+|[coverage](https://pypi.org/project/coverage)|v7.2.7|N/A|N/A |Apache-2.0|N/A|
+|[dj-database-url](https://pypi.org/project/dj-database-url)|v2.0.0|N/A|N/A |BSD-2-Clause|N/A|
+|[django-appconf](https://pypi.org/project/django-appconf)|v1.0.5|N/A|N/A |BSD-3-Clause|N/A|
+|[django-countries](https://pypi.org/project/django-countries)|v7.5.1|N/A|N/A |MIT|N/A|
+|[django-debug-toolbar](https://pypi.org/project/django-debug-toolbar)|v4.1.0|N/A|N/A |BSD-3-Clause|N/A|
+|[django-extensions](https://pypi.org/project/django-extensions)|v3.2.3|N/A|N/A |MIT|N/A|
+|[django-filter](https://pypi.org/project/django-filter)|v23.2|N/A|N/A |BSD-3-Clause|N/A|
+|[django-js-asset](https://pypi.org/project/django-js-asset)|v2.0.0|N/A|N/A |BSD-3-Clause|N/A|
+|[django-mptt](https://pypi.org/project/django-mptt)|v0.14.0|N/A|N/A |MIT|N/A|
+|[django-phonenumber-field](https://pypi.org/project/django-phonenumber-field)|v7.1.0|N/A|N/A |MIT|N/A|
+|[django-redis](https://pypi.org/project/django-redis)|v5.3.0|N/A|N/A |BSD-3-Clause|N/A|
+|[django-storages](https://pypi.org/project/django-storages)|v1.13.2|N/A|N/A |BSD-3-Clause|N/A|
+|[django-timezone-field](https://pypi.org/project/django-timezone-field)|v5.1|N/A|N/A |BSD-2-Clause|N/A|
+|[django-versatileimagefield](https://pypi.org/project/django-versatileimagefield)|v3.0|N/A|N/A |MIT|N/A|
+|[exceptiongroup](https://pypi.org/project/exceptiongroup)|v1.1.1|N/A|N/A |N/A|N/A|
+|[fakeredis](https://pypi.org/project/fakeredis)|v2.14.1|N/A|N/A |BSD-3-Clause|N/A|
+|[flake8](https://pypi.org/project/flake8)|v4.0.1|N/A|N/A |MIT|N/A|
+|[freezegun](https://pypi.org/project/freezegun)|v1.2.2|N/A|N/A |Apache-2.0|N/A|
+|[google-api-core](https://pypi.org/project/google-api-core)|v2.11.1|N/A|N/A |Apache-2.0|N/A|
+|[google-auth](https://pypi.org/project/google-auth)|v2.20.0|N/A|N/A |Apache-2.0|N/A|
+|[google-cloud-core](https://pypi.org/project/google-cloud-core)|v2.3.2|N/A|N/A |Apache-2.0|N/A|
+|[google-cloud-pubsub](https://pypi.org/project/google-cloud-pubsub)|v2.17.1|N/A|N/A |Apache-2.0|N/A|
+|[google-cloud-storage](https://pypi.org/project/google-cloud-storage)|v2.9.0|N/A|N/A |Apache-2.0|N/A|
+|[google-resumable-media](https://pypi.org/project/google-resumable-media)|v2.5.0|N/A|N/A |Apache-2.0|N/A|
+|[googleapis-common-protos](https://pypi.org/project/googleapis-common-protos)|v1.59.1|N/A|N/A |Apache-2.0|N/A|
+|[graphene](https://pypi.org/project/graphene)|v2.1.9|N/A|N/A |MIT|N/A|
+|[graphql-core](https://pypi.org/project/graphql-core)|v2.3.2|N/A|N/A |MIT|N/A|
+|[graphql-relay](https://pypi.org/project/graphql-relay)|v2.0.1|N/A|N/A |MIT|N/A|
+|[grpc-google-iam-v1](https://pypi.org/project/grpc-google-iam-v1)|v0.12.6|N/A|N/A |Apache-2.0|N/A|
+|[gunicorn](https://pypi.org/project/gunicorn)|v20.1.0|N/A|N/A |MIT|N/A|
+|[h11](https://pypi.org/project/h11)|v0.14.0|N/A|N/A |MIT|N/A|
+|[html2text](https://pypi.org/project/html2text)|v2020.1.16|N/A|N/A |GPL-3.0|N/A|
+|[html5lib](https://pypi.org/project/html5lib)|v1.1|N/A|N/A |MIT|N/A|
+|[httptools](https://pypi.org/project/httptools)|v0.5.0|N/A|N/A |MIT|N/A|
+|[importlib-metadata](https://pypi.org/project/importlib-metadata)|v6.7.0|N/A|N/A |Apache-2.0|N/A|
+|[isodate](https://pypi.org/project/isodate)|v0.6.1|N/A|N/A |BSD-3-Clause|N/A|
+|[isort](https://pypi.org/project/isort)|v5.12.0|N/A|N/A |MIT|N/A|
+|[jaeger-client](https://pypi.org/project/jaeger-client)|v4.8.0|N/A|N/A |Apache-2.0|N/A|
+|[jmespath](https://pypi.org/project/jmespath)|v1.0.1|N/A|N/A |MIT|N/A|
+|[jsonfield](https://pypi.org/project/jsonfield)|v3.1.0|N/A|N/A |MIT|N/A|
+|[kombu](https://pypi.org/project/kombu)|v5.3.1|N/A|N/A |BSD-3-Clause|N/A|
+|[lxml](https://pypi.org/project/lxml)|v4.9.2|N/A|N/A |BSD-3-Clause|N/A|
+|[mpmath](https://pypi.org/project/mpmath)|v1.3.0|N/A|N/A |BSD-3-Clause|N/A|
+|[mypy](https://pypi.org/project/mypy)|v1.3.0|N/A|N/A |MIT|N/A|
+|[oauthlib](https://pypi.org/project/oauthlib)|v3.2.2|N/A|N/A |BSD-3-Clause|N/A|
+|[openpyxl](https://pypi.org/project/openpyxl)|v3.1.2|N/A|N/A |MIT|N/A|
+|[petl](https://pypi.org/project/petl)|v1.7.12|N/A|N/A |MIT|N/A|
+|[phonenumberslite](https://pypi.org/project/phonenumberslite)|v8.13.14|N/A|N/A |Apache-2.0|N/A|
+|[pre-commit](https://pypi.org/project/pre-commit)|v3.3.3|N/A|N/A |MIT|N/A|
+|[promise](https://pypi.org/project/promise)|v2.3|N/A|N/A |MIT|N/A|
+|[prompt-toolkit](https://pypi.org/project/prompt-toolkit)|v3.0.38|N/A|N/A |BSD-3-Clause|N/A|
+|[psycopg2](https://pypi.org/project/psycopg2)|v2.9.6|N/A|N/A |BSD-3-Clause-Attribution|N/A|
+|[pyasn1](https://pypi.org/project/pyasn1)|v0.5.0|N/A|N/A |BSD-2-Clause|N/A|
+|[pyasn1-modules](https://pypi.org/project/pyasn1-modules)|v0.3.0|N/A|N/A |BSD-2-Clause|N/A|
+|[pybars3](https://pypi.org/project/pybars3)|v0.9.7|N/A|N/A |LGPL-3.0|N/A|
+|[pycodestyle](https://pypi.org/project/pycodestyle)|v2.8.0|N/A|N/A |Saxpath|N/A|
+|[pycparser](https://pypi.org/project/pycparser)|v2.21|N/A|N/A |BSD-3-Clause|N/A|
+|[pydocstyle](https://pypi.org/project/pydocstyle)|v6.3.0|N/A|N/A |MIT|N/A|
+|[pylint-plugin-utils](https://pypi.org/project/pylint-plugin-utils)|v0.8.2|N/A|N/A |GPL-2.0|N/A|
+|[pytest](https://pypi.org/project/pytest)|v7.3.2|N/A|N/A |MIT|N/A|
+|[pytest-asyncio](https://pypi.org/project/pytest-asyncio)|v0.21.0|N/A|N/A |Apache-2.0|N/A|
+|[pytest-cov](https://pypi.org/project/pytest-cov)|v4.1.0|N/A|N/A |MIT|N/A|
+|[pytest-django](https://pypi.org/project/pytest-django)|v4.5.2|N/A|N/A |BSD-3-Clause|N/A|
+|[pytest-mock](https://pypi.org/project/pytest-mock)|v3.11.1|N/A|N/A |MIT|N/A|
+|[pytest-xdist](https://pypi.org/project/pytest-xdist)|v3.3.1|N/A|N/A |MIT|N/A|
+|[python-crontab](https://pypi.org/project/python-crontab)|v2.7.1|N/A|N/A |LGPL-3.0|N/A|
+|[python-dateutil](https://pypi.org/project/python-dateutil)|v2.8.2|N/A|N/A |NRL|N/A|
+|[python-dotenv](https://pypi.org/project/python-dotenv)|v1.0.0|N/A|N/A |BSD-3-Clause|N/A|
+|[python-json-logger](https://pypi.org/project/python-json-logger)|v2.0.7|N/A|N/A |BSD-2-Clause|N/A|
+|[python-magic](https://pypi.org/project/python-magic)|v0.4.27|N/A|N/A |MIT|N/A|
+|[pytimeparse](https://pypi.org/project/pytimeparse)|v1.1.8|N/A|N/A |MIT|N/A|
+|[pytz](https://pypi.org/project/pytz)|v2023.3|N/A|N/A |MIT|N/A|
+|[pywatchman](https://pypi.org/project/pywatchman)|v1.4.1|N/A|N/A |MIT|N/A|
+|[requests](https://pypi.org/project/requests)|v2.31.0|N/A|N/A |Apache-2.0|N/A|
+|[rsa](https://pypi.org/project/rsa)|v4.9|N/A|N/A |Apache-2.0|N/A|
+|[s3transfer](https://pypi.org/project/s3transfer)|v0.6.1|N/A|N/A |Apache-2.0|N/A|
+|[semantic-version](https://pypi.org/project/semantic-version)|v2.10.0|N/A|N/A |BSD-2-Clause|N/A|
+|[sendgrid](https://pypi.org/project/sendgrid)|v6.10.0|N/A|N/A |MIT|N/A|
+|[sentry-sdk](https://pypi.org/project/sentry-sdk)|v1.25.1|N/A|N/A |MIT|N/A|
+|[setuptools](https://pypi.org/project/setuptools)|v67.8.0|N/A|N/A |MIT|N/A|
+|[six](https://pypi.org/project/six)|v1.16.0|N/A|N/A |MIT|N/A|
+|[soupsieve](https://pypi.org/project/soupsieve)|v2.4.1|N/A|N/A |MIT|N/A|
+|[sqlparse](https://pypi.org/project/sqlparse)|v0.4.4|N/A|N/A |BSD-3-Clause|N/A|
+|[stripe](https://pypi.org/project/stripe)|v3.5.0|N/A|N/A |MIT|N/A|
+|[sympy](https://pypi.org/project/sympy)|v1.12|N/A|N/A |BSD-3-Clause|N/A|
+|[text-unidecode](https://pypi.org/project/text-unidecode)|v1.3|N/A|N/A |Artistic-2.0|N/A|
+|[threadloop](https://pypi.org/project/threadloop)|v1.0.2|N/A|N/A |MIT|N/A|
+|[thrift](https://pypi.org/project/thrift)|v0.16.0|N/A|N/A |Apache-2.0|N/A|
+|[tinycss2](https://pypi.org/project/tinycss2)|v1.2.1|N/A|N/A |BSD-3-Clause|N/A|
+|[typing-extensions](https://pypi.org/project/typing-extensions)|v4.6.3|N/A|N/A |Python-2.0|N/A|
+|[uvicorn](https://pypi.org/project/uvicorn)|v0.19.0|N/A|N/A |BSD-3-Clause|N/A|
+|[uvloop](https://pypi.org/project/uvloop)|v0.17.0|N/A|N/A |Apache-2.0|N/A|
+|[vine](https://pypi.org/project/vine)|v5.0.0|N/A|N/A |BSD-3-Clause|N/A|
+|[webencodings](https://pypi.org/project/webencodings)|v0.5.1|N/A|N/A |BSD-3-Clause|N/A|
+|[websockets](https://pypi.org/project/websockets)|v11.0.3|N/A|N/A |BSD-3-Clause|N/A|
+|[zipp](https://pypi.org/project/zipp)|v3.15.0|N/A|N/A |MIT|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (1)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[release-it](https://www.npmjs.com/release-it)|v15.6.0|02/13/23|dependabot[bot] |MIT|N/A|
+|[release-it](https://www.npmjs.com/release-it)|v15.6.0|N/A|N/A |MIT|N/A|
 
 <br/>
 <div align='center'>
