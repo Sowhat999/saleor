@@ -1,0 +1,1904 @@
+repo_name: Sowhat999/saleor
+report_id: 3969c9578d08584cfb17a697a2f1e535
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-15T07:25:21+00:00'
+requested_by: pawelzar
+provider: github
+branch: main
+detected_tools_count: 151
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/package.json
+  detection_source: package.json
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  version: '3.9'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/requirements.txt
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/.devcontainer/docker-compose.yml
+  detection_source: ".devcontainer/docker-compose.yml"
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 4.23.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/requirements.txt
+  detection_source: requirements.txt
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/requirements.txt
+  detection_source: requirements.txt
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/saleor/graphql/schema.graphql
+  detection_source: saleor/graphql/schema.graphql
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/.devcontainer/docker-compose.yml
+  detection_source: ".devcontainer/docker-compose.yml"
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 4.5.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: ".devcontainer/docker-compose.yml"
+- name: Serverless AppSync
+  description: Easily and quickly deploy GraphQL APIs on AWS
+  website_url: https://github.com/serverless-components/aws-app-sync
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: GraphQL Tools
+  image_url: https://img.stackshare.io/service/11394/appsync.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/.devcontainer/docker-compose.yml
+  detection_source: ".devcontainer/docker-compose.yml"
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Sowhat999/saleor
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Sowhat999/saleor
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/.github/workflows/bump-dependencies.yml
+  detection_source: ".github/workflows/bump-dependencies.yml"
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/.devcontainer/docker-compose.yml
+  detection_source: ".devcontainer/docker-compose.yml"
+- name: OpenTracing
+  description: Consistent, expressive, vendor-neutral APIs for distributed tracing
+    and context propagation.
+  website_url: http://opentracing.io/
+  version: 2.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/6941/ktuguoGc_400x400.jpg
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/requirements.txt
+  detection_source: requirements.txt
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.17.4
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements_dev.txt
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/package.json
+  detection_source: package.json
+- name: Heroku
+  description: Build, deliver, monitor and scale web apps and APIs with a trail blazing
+    developer experience.
+  website_url: https://www.heroku.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/app.json
+  detection_source: app.json
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/.devcontainer/docker-compose.yml
+  detection_source: ".devcontainer/docker-compose.yml"
+- name: Saleor
+  description: A GraphQL-first e-commerce platform for the PWA era
+  website_url: https://getsaleor.com
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ecommerce
+  image_url: https://img.stackshare.io/service/9843/m9Hu1f9G_400x400.jpg
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/.devcontainer/docker-compose.yml
+  detection_source: ".devcontainer/docker-compose.yml"
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Sowhat999/saleor
+  detection_source: Repo Metadata
+- name: Websockets
+  description: A technology that makes it possible to open a two-way interactive communication
+  website_url: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+  version: 11.0.3
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4220/LNPwoiWi_400x400.jpg
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2023.5.7
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  version: 41.0.1
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  vulnerabilities:
+  - name: cryptography mishandles SSH certificates
+    cve_id: CVE-2023-38325
+    cve_url: https://github.com/advisories/GHSA-cf7p-gm2m-833m
+    detected_date: Jul 15
+    severity: high
+    first_patched: 41.0.2
+  - name: cryptography NULL pointer dereference with pkcs12.serialize_key_and_certificates
+      when called with a non-matching certificate and private key and an hmac_hash
+      override
+    cve_id: CVE-2024-26130
+    cve_url: https://github.com/advisories/GHSA-6vqw-3v5j-54x4
+    detected_date: Feb 22
+    severity: high
+    first_patched: 42.0.4
+  - name: Python Cryptography package vulnerable to Bleichenbacher timing oracle attack
+    cve_id: CVE-2023-50782
+    cve_url: https://github.com/advisories/GHSA-3ww4-gg4f-jr7f
+    detected_date: Feb 6
+    severity: high
+    first_patched: 42.0.0
+  - name: Null pointer dereference in PKCS12 parsing
+    cve_id: CVE-2024-0727
+    cve_url: https://github.com/advisories/GHSA-9v9h-cgj8-h64p
+    detected_date: Feb 17
+    severity: moderate
+    first_patched: 42.0.2
+  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
+    cve_id: CVE-2023-49083
+    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 41.0.6
+  - name: pyca/cryptography's wheels include vulnerable OpenSSL
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-jm77-qphf-c4w8
+    detected_date: Aug 2
+    severity: low
+    first_patched: 41.0.3
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v8gr-m533-ghj9
+    detected_date: Sep 22
+    severity: low
+    first_patched: 41.0.4
+- name: fonttools
+  description: Tools to manipulate font files
+  package_url: https://pypi.org/project/fonttools
+  version: 4.40.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20488/default_13373c456cf04faa5b7f33cd4c4095cbd571dfce.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+  vulnerabilities:
+  - name: fonttools XML External Entity Injection (XXE) Vulnerability
+    cve_id: CVE-2023-45139
+    cve_url: https://github.com/advisories/GHSA-6673-4983-2vx5
+    detected_date: Jan 10
+    severity: high
+    first_patched: 4.43.0
+- name: grpcio
+  description: HTTP/2-based RPC framework
+  package_url: https://pypi.org/project/grpcio
+  version: 1.54.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19903/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+  vulnerabilities:
+  - name: Denial of Service Vulnerability in gRPC TCP Server (Posix-compatible platforms)
+    cve_id: CVE-2023-4785
+    cve_url: https://github.com/advisories/GHSA-p25m-jpj4-qcrr
+    detected_date: Feb 11
+    severity: high
+    first_patched: 1.54.3
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 23.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  vulnerabilities:
+  - name: Black vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2024-21503
+    cve_url: https://github.com/advisories/GHSA-fj7x-q9j7-g6q6
+    detected_date: Mar 21
+    severity: moderate
+    first_patched: 24.3.0
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+  vulnerabilities:
+  - name: Internationalized Domain Names in Applications (IDNA) vulnerable to denial
+      of service from specially crafted inputs to idna.encode
+    cve_id: CVE-2024-3651
+    cve_url: https://github.com/advisories/GHSA-jjg7-2v4v-x38h
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: '3.7'
+- name: tornado
+  description: Tornado is a Python web framework and asynchronous networking library
+  package_url: https://pypi.org/project/tornado
+  version: 6.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19860/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+  vulnerabilities:
+  - name: Tornado vulnerable to HTTP request smuggling via improper parsing of `Content-Length`
+      fields and chunk lengths
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-qppv-j76h-2rpx
+    detected_date: Aug 15
+    severity: moderate
+    first_patched: 6.3.3
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: Authlib
+  description: The ultimate Python library in building OAuth and OpenID Connect servers
+  package_url: https://pypi.org/project/Authlib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20752/default_cf2c193a97e2b1ce404093ff2bc569ddeeeb005b.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+- name: amqp
+  description: Low-level AMQP client for Python
+  package_url: https://pypi.org/project/amqp
+  version: 5.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20296/default_fbb28b4e332d257da7e7f1277d3ce073b5270511.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: aniso8601
+  description: A library for parsing ISO 8601 strings
+  package_url: https://pypi.org/project/aniso8601
+  version: 7.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20255/default_49d350d2ae446ec5a00ebd45eeeaa0c300409a71.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: anyio
+  description: High level compatibility layer for multiple asynchronous event loop
+    implementations
+  package_url: https://pypi.org/project/anyio
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: asgiref
+  description: ASGI specs, helper code, and adapters
+  package_url: https://pypi.org/project/asgiref
+  version: 3.7.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20739/default_88a4948f616ae7ccb7210803d2bd72b72851b6e9.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: async-timeout
+  description: Timeout context manager for asyncio programs
+  package_url: https://pypi.org/project/async-timeout
+  version: 4.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20820/default_33e8d7fbba8bfff26ed0101b65f3a3af5fd63b4e.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: azure-common
+  description: Microsoft Azure Client Library for Python
+  package_url: https://pypi.org/project/azure-common
+  version: 1.1.28
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19952/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: azure-core
+  description: Microsoft Azure Core Library for Python
+  package_url: https://pypi.org/project/azure-core
+  version: 1.27.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20643/default_eac54b26516ae2823ed86a96e24038313550c798.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: azure-storage-blob
+  description: Microsoft Azure Blob Storage Client Library for Python
+  package_url: https://pypi.org/project/azure-storage-blob
+  version: 12.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20246/default_79c7a01488eebdf30ca22b7316d9f77bbe7fad8b.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: azure-storage-common
+  description: Microsoft Azure Storage Common Client Library for Python
+  package_url: https://pypi.org/project/azure-storage-common
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: bcrypt
+  description: Modern password hashing for your software and your servers
+  package_url: https://pypi.org/project/bcrypt
+  version: 4.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20031/default_242158225818ea25f0ab9031a46e17f8ff8246cb.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: billiard
+  description: Python multiprocessing fork with improvements and bugfixes
+  package_url: https://pypi.org/project/billiard
+  version: 4.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20470/default_54107e01f42ee7fb9e6c385c975ec134753aae0a.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.26.155
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: botocore
+  description: Low-level, data-driven core of boto 3
+  package_url: https://pypi.org/project/botocore
+  version: 1.29.155
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19884/default_b8be3f20d4af87021ae3618d5c50b72c985ea31f.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: braintree
+  description: Braintree Python Library
+  package_url: https://pypi.org/project/braintree
+  version: 4.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: cachetools
+  description: Extensible memoizing collections and decorators
+  package_url: https://pypi.org/project/cachetools
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19950/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: celery
+  description: Distributed Task Queue
+  package_url: https://pypi.org/project/celery
+  version: 5.3.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19901/default_4f4fb10b6f169603a907dcb35a5a356d784e3bd3.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: cffi
+  description: Foreign Function Interface for Python calling C code
+  package_url: https://pypi.org/project/cffi
+  version: 1.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 3.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 8.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: click-plugins
+  description: An extension module for click to enable registering CLI commands via
+    setuptools entry-points
+  package_url: https://pypi.org/project/click-plugins
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20361/default_a54cbb457d7aac7ab53484c3473848dbdd84d806.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  version: 0.4.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: 7.2.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: dj-database-url
+  description: Use Database URLs in your Django Application
+  package_url: https://pypi.org/project/dj-database-url
+  version: 2.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20428/default_bd9b8499e6f547a7732694c637f33437a8c7ba95.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: django-appconf
+  description: A helper class for handling configuration defaults of packaged apps
+    gracefully
+  package_url: https://pypi.org/project/django-appconf
+  version: 1.0.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20374/default_cf6e114d2165ab0bf32c948df1cde4f9dd7bea3c.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: django-countries
+  description: Provides a country field for Django models
+  package_url: https://pypi.org/project/django-countries
+  version: 7.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20621/default_5ed7f7d7f8da598b07680ab161e0b863509933d0.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: django-debug-toolbar
+  description: A configurable set of panels that display various debug information
+    about the current request/response
+  package_url: https://pypi.org/project/django-debug-toolbar
+  version: 4.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20671/default_d50ff54d48cd87d57b8eda5d2d945fe31fb2ac8a.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: django-extensions
+  description: Extensions for Django
+  package_url: https://pypi.org/project/django-extensions
+  version: 3.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20221/default_de20d7ae2b6948b5b182b4fc08037d5f45d6d0a6.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: django-filter
+  description: Django-filter is a reusable Django application for allowing users to
+    filter querysets dynamically
+  package_url: https://pypi.org/project/django-filter
+  version: '23.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20158/default_31f4acd7a71628261771488a4d0f37f63bff1598.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: django-js-asset
+  description: Script tag with additional attributes for django.forms.Media
+  package_url: https://pypi.org/project/django-js-asset
+  version: 2.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: django-mptt
+  description: Utilities for implementing Modified Preorder Tree Traversal with your
+    Django Models and working with trees of Model instances
+  package_url: https://pypi.org/project/django-mptt
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20498/default_8405e755ce8691172af73bcad6a9acd5b800b89f.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: django-phonenumber-field
+  description: An international phone number field for django models
+  package_url: https://pypi.org/project/django-phonenumber-field
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: django-redis
+  description: Full featured redis cache backend for Django
+  package_url: https://pypi.org/project/django-redis
+  version: 5.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20669/default_8661a5c1d9ac6f06e853c3c1b9fe936bb7029ff7.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: django-storages
+  description: Support for many storage backends in Django
+  package_url: https://pypi.org/project/django-storages
+  version: 1.13.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: django-timezone-field
+  description: A Django app providing database and form fields for pytz timezone objects
+  package_url: https://pypi.org/project/django-timezone-field
+  version: '5.1'
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: django-versatileimagefield
+  description: A drop-in replacement for django's ImageField that provides a flexible
+  package_url: https://pypi.org/project/django-versatileimagefield
+  version: '3.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: exceptiongroup
+  description: Backport of PEP 654
+  package_url: https://pypi.org/project/exceptiongroup
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: fakeredis
+  description: Fake implementation of redis API for testing purposes
+  package_url: https://pypi.org/project/fakeredis
+  version: 2.14.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20594/default_9322f13ef9811bfc120f244dc670f7e4fb5b8aa3.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/project/flake8
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: freezegun
+  description: Let your Python tests travel through time
+  package_url: https://pypi.org/project/freezegun
+  version: 1.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20595/default_9322f13ef9811bfc120f244dc670f7e4fb5b8aa3.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: google-api-core
+  description: Google API client core library
+  package_url: https://pypi.org/project/google-api-core
+  version: 2.11.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20073/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: google-auth
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth
+  version: 2.20.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: google-cloud-core
+  description: Google Cloud API client core library
+  package_url: https://pypi.org/project/google-cloud-core
+  version: 2.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20215/default_91afeaad6f5d17a2b513346f3f744a53cbd8a9ad.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: google-cloud-pubsub
+  description: Google Cloud Pub/Sub API client library
+  package_url: https://pypi.org/project/google-cloud-pubsub
+  version: 2.17.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20317/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: google-cloud-storage
+  description: Google Cloud Storage API client library
+  package_url: https://pypi.org/project/google-cloud-storage
+  version: 2.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19996/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: google-resumable-media
+  description: Utilities for Google Media Downloads and Resumable Uploads
+  package_url: https://pypi.org/project/google-resumable-media
+  version: 2.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: googleapis-common-protos
+  description: Common protobufs used in Google APIs
+  package_url: https://pypi.org/project/googleapis-common-protos
+  version: 1.59.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20036/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: graphene
+  description: GraphQL Framework for Python
+  package_url: https://pypi.org/project/graphene
+  version: 2.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20293/default_fbb28b4e332d257da7e7f1277d3ce073b5270511.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: graphql-core
+  description: GraphQL implementation for Python
+  package_url: https://pypi.org/project/graphql-core
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20238/default_56465b2d1d207cb39051b8212003e52b6ffb328a.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: graphql-relay
+  description: Relay library for graphql-core-next
+  package_url: https://pypi.org/project/graphql-relay
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: grpc-google-iam-v1
+  description: GRPC library for the google-iam-v1 service
+  package_url: https://pypi.org/project/grpc-google-iam-v1
+  version: 0.12.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20581/default_294aaac4f4561c6d8327d4bd573d858954903e9a.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: h11
+  description: A pure-Python
+  package_url: https://pypi.org/project/h11
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: html2text
+  description: Turn HTML into equivalent Markdown-structured text
+  package_url: https://pypi.org/project/html2text
+  version: 2020.1.16
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19982/default_ccb381b493daf0d966e015380e1894fdbc637ad3.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: html5lib
+  description: HTML parser based on the WHATWG HTML specification
+  package_url: https://pypi.org/project/html5lib
+  version: '1.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19936/default_63c8e7696ded615c51302c06e54b0d0c8ae9af3f.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: httptools
+  description: A collection of framework independent HTTP protocol utils
+  package_url: https://pypi.org/project/httptools
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 6.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: isodate
+  description: An ISO 8601 date/time/duration parser and formatter
+  package_url: https://pypi.org/project/isodate
+  version: 0.6.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20076/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  version: 5.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: jaeger-client
+  description: Jaeger Python OpenTracing Tracer implementation
+  package_url: https://pypi.org/project/jaeger-client
+  version: 4.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: jmespath
+  description: JSON Matching Expressions
+  package_url: https://pypi.org/project/jmespath
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19993/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: jsonfield
+  description: A reusable Django field that allows you to store validated JSON in
+    your model
+  package_url: https://pypi.org/project/jsonfield
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: kombu
+  description: Messaging library for Python
+  package_url: https://pypi.org/project/kombu
+  version: 5.3.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20085/default_36085c16346155862c5c1303e8a0a70416453533.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  version: 4.9.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: mpmath
+  description: Python library for arbitrary-precision floating-point arithmetic
+  package_url: https://pypi.org/project/mpmath
+  version: 1.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: oauthlib
+  description: A generic
+  package_url: https://pypi.org/project/oauthlib
+  version: 3.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20048/default_d9e0956c82c17d568b62f3b0d5e2080c1e501e59.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: openpyxl
+  description: A Python library to read/write Excel 2010 xlsx/xlsm files
+  package_url: https://pypi.org/project/openpyxl
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19895/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: petl
+  description: A Python package for extracting
+  package_url: https://pypi.org/project/petl
+  version: 1.7.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: phonenumberslite
+  description: Python version of Google's common library for parsing
+  package_url: https://pypi.org/project/phonenumberslite
+  version: 8.13.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit
+    hooks
+  package_url: https://pypi.org/project/pre-commit
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: promise
+  description: Promises/A+ implementation for Python
+  package_url: https://pypi.org/project/promise
+  version: '2.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20474/default_4678b3a0f8bef4a4806a0b8511b2c80a0421ef77.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: prompt-toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt-toolkit
+  version: 3.0.38
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: psycopg2
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2
+  version: 2.9.6
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pyasn1
+  description: ASN.1 types and codecs
+  package_url: https://pypi.org/project/pyasn1
+  version: 0.5.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19915/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: pyasn1-modules
+  description: A collection of ASN.1-based protocols modules
+  package_url: https://pypi.org/project/pyasn1-modules
+  version: 0.3.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20090/default_36085c16346155862c5c1303e8a0a70416453533.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: pybars3
+  description: Handlebars.js templating for Python 3 and 2
+  package_url: https://pypi.org/project/pybars3
+  version: 0.9.7
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pycodestyle
+  description: Python style guide checker
+  package_url: https://pypi.org/project/pycodestyle
+  version: 2.8.0
+  license: Saxpath
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20145/default_a55249b25c76872ebbee6b173a63c5fce36136f9.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pycparser
+  description: C parser in Python
+  package_url: https://pypi.org/project/pycparser
+  version: '2.21'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: pydocstyle
+  description: Python docstring style checker
+  package_url: https://pypi.org/project/pydocstyle
+  version: 6.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20507/default_0a4b1ff56fc84a423341df2dee7f169b1171f64d.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pylint-plugin-utils
+  description: Utilities and helpers for writing Pylint plugins
+  package_url: https://pypi.org/project/pylint-plugin-utils
+  version: 0.8.2
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  version: 0.21.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pytest-django
+  description: A Django plugin for pytest
+  package_url: https://pypi.org/project/pytest-django
+  version: 4.5.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20505/default_0a4b1ff56fc84a423341df2dee7f169b1171f64d.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pytest-mock
+  description: Thin-wrapper around the mock package for easier use with py.test
+  package_url: https://pypi.org/project/pytest-mock
+  version: 3.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20244/default_fc0d35561378e21d3174def06634c96515818661.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pytest-xdist
+  description: Pytest xdist plugin for distributed testing and loop-on-failing modes
+  package_url: https://pypi.org/project/pytest-xdist
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20307/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: python-crontab
+  description: Python Crontab API
+  package_url: https://pypi.org/project/python-crontab
+  version: 2.7.1
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20382/default_135579e95b2b6e219789a65aaca198fa4c877f7a.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: python-json-logger
+  description: A python library adding a json log formatter
+  package_url: https://pypi.org/project/python-json-logger
+  version: 2.0.7
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20268/default_ac8229927eda3d44316aa5b5d6704388a231bb77.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: python-magic
+  description: File type identification using libmagic
+  package_url: https://pypi.org/project/python-magic
+  version: 0.4.27
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20245/default_79c7a01488eebdf30ca22b7316d9f77bbe7fad8b.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: pytimeparse
+  description: Time expression parser
+  package_url: https://pypi.org/project/pytimeparse
+  version: 1.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20418/default_7799ed711e8dbb6945e10dca5ca55fe0bfa61d26.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2023.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: pywatchman
+  description: Watchman client for python
+  package_url: https://pypi.org/project/pywatchman
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: rsa
+  description: Pure-Python RSA implementation
+  package_url: https://pypi.org/project/rsa
+  version: '4.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20021/default_faea030602e3d71554c57e6fc53190ac830da00d.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: s3transfer
+  description: An Amazon S3 Transfer Manager
+  package_url: https://pypi.org/project/s3transfer
+  version: 0.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20042/default_15ea2ed8281eccea374610791971ca44800f16ec.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: semantic-version
+  description: A library implementing the 'SemVer' scheme
+  package_url: https://pypi.org/project/semantic-version
+  version: 2.10.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20254/default_49d350d2ae446ec5a00ebd45eeeaa0c300409a71.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: sendgrid
+  description: Twilio SendGrid library for Python
+  package_url: https://pypi.org/project/sendgrid
+  version: 6.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20325/default_0c9409de2ef424482d14f84cb95c9dab5c399c85.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: sentry-sdk
+  description: Python client for Sentry
+  package_url: https://pypi.org/project/sentry-sdk
+  version: 1.25.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19998/default_b31141ac99e60278dc869f5a0490a63444b590d7.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: setuptools
+  description: Easily download
+  package_url: https://pypi.org/project/setuptools
+  version: 67.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19831/default_65d1c12a133e1aa67ae96a1221c9c122ddf86c5f.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: soupsieve
+  description: A modern CSS selector implementation for Beautiful Soup
+  package_url: https://pypi.org/project/soupsieve
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20367/default_f96848c380cbdcec99ab678e027c29229da52205.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: sqlparse
+  description: Non-validating SQL parser
+  package_url: https://pypi.org/project/sqlparse
+  version: 0.4.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20039/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: stripe
+  description: Python bindings for the Stripe API
+  package_url: https://pypi.org/project/stripe
+  version: 3.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20448/default_3594ac2294a6aa0f41792d27e3f019e66d1684f7.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: sympy
+  description: Computer algebra system
+  package_url: https://pypi.org/project/sympy
+  version: '1.12'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19976/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: text-unidecode
+  description: The most basic Text::Unidecode port
+  package_url: https://pypi.org/project/text-unidecode
+  version: '1.3'
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: threadloop
+  description: Tornado IOLoop Backed Concurrent Futures
+  package_url: https://pypi.org/project/threadloop
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: thrift
+  description: Python bindings for the Apache Thrift RPC system
+  package_url: https://pypi.org/project/thrift
+  version: 0.16.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20168/default_61c5587692a15177a925ec9469e353b56dcc7b6a.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: tinycss2
+  description: Low-level CSS parser for Python
+  package_url: https://pypi.org/project/tinycss2
+  version: 1.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: typing-extensions
+  description: Backported and Experimental Type Hints for Python 3.5+
+  package_url: https://pypi.org/project/typing-extensions
+  version: 4.6.3
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.19.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: pyproject.toml
+- name: uvloop
+  description: Fast implementation of asyncio event loop on top of libuv
+  package_url: https://pypi.org/project/uvloop
+  version: 0.17.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20187/default_c5c395350b07388a35a5e9efffb0ea706d6e196d.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: vine
+  description: Promises, promises, promises
+  package_url: https://pypi.org/project/vine
+  version: 5.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: webencodings
+  description: Character encoding aliases for legacy web content
+  package_url: https://pypi.org/project/webencodings
+  version: 0.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20327/default_1342a7e78c3c34f58715077849cd487ffddd263d.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: websockets
+  description: An implementation of the WebSocket Protocol
+  package_url: https://pypi.org/project/websockets
+  version: 11.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: zipp
+  description: Backport of pathlib-compatible object wrapper for zip files
+  package_url: https://pypi.org/project/zipp
+  version: 3.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/poetry.lock
+  detection_source: requirements.txt
+- name: release-it
+  description: CLI release tool for Git repos and npm packages
+  package_url: https://www.npmjs.com/release-it
+  version: 15.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16490/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/Sowhat999/saleor/blob/main/package-lock.json
+  detection_source: package.json
