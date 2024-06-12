@@ -1,3 +1,4 @@
+import secrets
 from datetime import datetime, timedelta
 
 import graphene
@@ -9,7 +10,6 @@ from freezegun import freeze_time
 from ....product.models import CollectionProduct, Product, ProductChannelListing
 from ...core.connection import to_global_cursor
 from ...tests.utils import get_graphql_content
-import secrets
 
 COLLECTION_RESORT_QUERY = """
 mutation ReorderCollectionProducts($collectionId: ID!, $moves: [MoveProductInput!]!) {
