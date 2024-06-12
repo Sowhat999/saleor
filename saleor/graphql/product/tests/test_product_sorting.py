@@ -1,4 +1,3 @@
-import random
 from datetime import datetime, timedelta
 
 import graphene
@@ -10,6 +9,7 @@ from freezegun import freeze_time
 from ....product.models import CollectionProduct, Product, ProductChannelListing
 from ...core.connection import to_global_cursor
 from ...tests.utils import get_graphql_content
+import secrets
 
 COLLECTION_RESORT_QUERY = """
 mutation ReorderCollectionProducts($collectionId: ID!, $moves: [MoveProductInput!]!) {
@@ -230,7 +230,7 @@ def test_sort_products_by_rating(
     direction, order_direction, api_client, product_list, channel_USD
 ):
     for product in product_list:
-        product.rating = random.uniform(1, 10)
+        product.rating = secrets.SystemRandom().uniform(1, 10)
     Product.objects.bulk_update(product_list, ["rating"])
 
     variables = {
